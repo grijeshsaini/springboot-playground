@@ -5,10 +5,10 @@ import java.math.BigDecimal;
 /**
  * Created by grijesh on 31/10/15.
  */
-public class ConvertCurrencyImpl implements ConvertCurrency {
+public class ConvertRequestImpl implements ConvertRequest {
 
     @Override
-    public BigDecimal convertCurrency(ConvertCurrency convertCurrency) {
+    public BigDecimal convertCurrency(ConvertRequest convertRequest) {
         return null;
     }
 }
