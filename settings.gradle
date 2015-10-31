@@ -2,3 +2,5 @@ rootProject.name = 'springboot-playground'
 
 include 'restservices'
 
+include 'currency-coverter'
+
