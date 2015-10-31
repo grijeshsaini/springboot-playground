@@ -1,4 +1,4 @@
-package com.grijesh.com.grijesh.dto;
+package com.grijesh.dto;
 
 public class Greeting {
 

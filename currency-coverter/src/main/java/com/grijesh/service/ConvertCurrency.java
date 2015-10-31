@@ -1,4 +1,4 @@
-package com.grijesh.com.grijesh.service;
+package com.grijesh.service;
 
 import java.math.BigDecimal;
 
