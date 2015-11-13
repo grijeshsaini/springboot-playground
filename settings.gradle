@@ -4,3 +4,5 @@ include 'restservices'
 
 include 'currency-coverter'
 
+include 'swagger'
+
