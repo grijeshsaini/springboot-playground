@@ -22,7 +22,7 @@ public class CurrencyConverterController {
     public ConvertResponse convertCurrency(@RequestBody ConvertRequest convertRequest) {
         BigDecimal amount = convertRequestService.convertCurrency(convertRequest);
         ConvertResponse convertResponse = new ConvertResponse();
-        convertResponse.setConvertedAmount(amount.toString());
+        //convertResponse.setConvertedAmount(amount.toString());
         return convertResponse;
     }
 

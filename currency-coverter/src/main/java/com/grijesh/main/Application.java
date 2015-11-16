@@ -43,7 +43,7 @@ import org.springframework.context.annotation.Import;
         JerseyAutoConfiguration.class
 })
 //@EnableAutoConfiguration
-@ComponentScan("com.grijesh.controllers")
+@ComponentScan("com.grijesh")
 public class Application extends SpringBootServletInitializer{
     public static void main(String ...args){
         SpringApplication.run(Application.class,args);

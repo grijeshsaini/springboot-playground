@@ -19,6 +19,10 @@ buildscript {
 }
 
 dependencies {
+
+    //internal modules
+    compile project(':swagger')
+
     // tag::jetty[]
     compile("org.springframework.boot:spring-boot-starter-web")
     compile("org.springframework.boot:spring-boot-starter-actuator")
