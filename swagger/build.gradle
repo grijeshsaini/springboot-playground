@@ -1,5 +1,4 @@
 apply plugin: 'java'
-apply plugin: 'scala'
 
 
 repositories {
@@ -7,44 +6,6 @@ repositories {
 }
 
 dependencies {
-    compile('org.scala-lang:scala-library:2.10.0')
-    compile('com.wordnik:swagger-annotations:1.3.12'){
-        exclude group:'org.apache.commons', module:'commons-lang3'
-        exclude group:'com.fasterxml.jackson.datatype',module:'jackson-datatype-joda'
-        exclude group:'com.fasterxml.jackson.dataformat',module:'jackson-dataformat-yaml'
-        exclude group:'org.scala-lang',module:'scala-library'
-        exclude group:'org.scala-lang',module:'scala-reflect'
-        exclude group:'com.google.code.findbugs',module:'jsr305'
-        exclude group:'joda-time',module:'joda-time'
-    }
-    compile('com.wordnik:swagger-jersey2-jaxrs_2.10:1.3.12'){
-        exclude group:'org.apache.commons', module:'commons-lang3'
-        exclude group:'com.fasterxml.jackson.datatype',module:'jackson-datatype-joda'
-        exclude group:'com.fasterxml.jackson.dataformat',module:'jackson-dataformat-yaml'
-        exclude group:'org.scala-lang',module:'scala-library'
-        exclude group:'org.scala-lang',module:'scala-reflect'
-        exclude group:'com.google.code.findbugs',module:'jsr305'
-        exclude group:'joda-time',module:'joda-time'
-    }
-
-    compile('com.wordnik:swagger-core_2.10:1.3.12'){
-        exclude group:'org.apache.commons', module:'commons-lang3'
-        exclude group:'com.fasterxml.jackson.datatype',module:'jackson-datatype-joda'
-        exclude group:'com.fasterxml.jackson.dataformat',module:'jackson-dataformat-yaml'
-        exclude group:'org.scala-lang',module:'scala-library'
-        exclude group:'org.scala-lang',module:'scala-reflect'
-        exclude group:'com.google.code.findbugs',module:'jsr305'
-        exclude group:'joda-time',module:'joda-time'
-    }
-
-    compile('com.wordnik:swagger-jaxrs_2.10:1.3.12'){
-        exclude group:'org.apache.commons', module:'commons-lang3'
-        exclude group:'com.fasterxml.jackson.datatype',module:'jackson-datatype-joda'
-        exclude group:'com.fasterxml.jackson.dataformat',module:'jackson-dataformat-yaml'
-        exclude group:'org.scala-lang',module:'scala-library'
-        exclude group:'org.scala-lang',module:'scala-reflect'
-        exclude group:'com.google.code.findbugs',module:'jsr305'
-        exclude group:'joda-time',module:'joda-time'
-    }
+   compile('com.mangofactory:swagger-springmvc:1.0.2')
     testCompile group: 'junit', name: 'junit', version: '4.11'
 }
