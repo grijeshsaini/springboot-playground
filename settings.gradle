@@ -6,3 +6,5 @@ include 'currency-coverter'
 
 include 'swagger'
 
+include 'jpa-playground'
+
