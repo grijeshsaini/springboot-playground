@@ -1,7 +1,7 @@
 package com.grijesh.jpa.service;
 
-import com.grijesh.jpa.repository.Customer;
-import com.grijesh.jpa.repository.CustomerRepository;
+import com.grijesh.jpa.domain.Customer;
+import com.grijesh.jpa.domain.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

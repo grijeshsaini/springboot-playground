@@ -1,4 +1,4 @@
-package com.grijesh.jpa.repository;
+package com.grijesh.jpa.domain;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
