@@ -14,7 +14,11 @@ public class CustomHealthCheck implements CustomHealthCheckService {
 
     @Override
     public void doHealthCheck(Health.Builder builder) {
-        //Do Some Check
-        builder.withDetail("Health Status", CONNECTED);
+        try {
+            //Do Some Check
+            builder.withDetail("Health Status", CONNECTED);
+        }catch (Exception e){
+            setHealthStatusOnException("JPA-HEALTH",builder,e);
+        }
     }
 }
