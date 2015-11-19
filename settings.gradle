@@ -8,3 +8,5 @@ include 'swagger'
 
 include 'jpa-playground'
 
+include 'healthcheck'
+
