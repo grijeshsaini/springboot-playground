@@ -16,9 +16,9 @@ public class JpaTestController {
     @Autowired
     private CustomerService customerService;
 
-    @RequestMapping(value = "/start",method = RequestMethod.GET)
-    public void runApplication(){
-            customerService.runExample();
+    @RequestMapping(value = "/start", method = RequestMethod.GET)
+    public void runApplication() {
+        customerService.runExample();
     }
 
 }

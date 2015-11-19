@@ -11,14 +11,14 @@ import org.springframework.stereotype.Service;
  * Created by grijesh on 19/11/15.
  */
 @Service
-public class CustomerServiceImpl implements CustomerService{
+public class CustomerServiceImpl implements CustomerService {
 
     private static final Logger log = LoggerFactory.getLogger(CustomerServiceImpl.class);
 
     private CustomerRepository repository;
 
     @Autowired
-    public CustomerServiceImpl(CustomerRepository repository){
+    public CustomerServiceImpl(CustomerRepository repository) {
         this.repository = repository;
     }
 
