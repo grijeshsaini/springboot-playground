@@ -31,7 +31,8 @@ public class SwaggerConfig {
                         null,
                         null,
                         null
-                ));
+                ))
+                .includePatterns("/jpa/.*");
         //Here we disable auto generating of responses for REST-endpoints
         //.useDefaultResponseMessages(false);
         //Here we specify URI patterns which will be included in Swagger docs. Use regex for this purpose.
