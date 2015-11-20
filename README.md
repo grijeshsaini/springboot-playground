@@ -1,4 +1,17 @@
 #### Repository to learn Spring boot
+
+
+##Done
+
 -Swagger
--Functional Test
--BDD
+-Integration Test
+-Rest Controllers
+-Custom Health Checks
+-JPA - Integration
+
+
+
+##TODO
+
+-Need to improve gradle structure
+-Create FAT jar
