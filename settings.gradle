@@ -10,3 +10,5 @@ include 'jpa-playground'
 
 include 'healthcheck'
 
+include 'functional-tests'
+

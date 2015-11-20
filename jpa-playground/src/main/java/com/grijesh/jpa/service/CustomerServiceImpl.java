@@ -1,11 +1,15 @@
 package com.grijesh.jpa.service;
 
+import com.google.common.collect.Lists;
 import com.grijesh.jpa.domain.Customer;
 import com.grijesh.jpa.domain.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import java.util.List;
 
 /**
  * Created by grijesh on 19/11/15.
@@ -52,5 +56,18 @@ public class CustomerServiceImpl implements CustomerService {
             log.info(bauer.toString());
         }
         log.info("");
+    }
+
+    @Override
+    public List<Customer> listAllCustomers() {
+        List<Customer> list = Lists.newArrayList(repository.findAll());
+        list.forEach(item -> log.info(item.toString()));
+        return list;
+    }
+
+    @Override
+    @Transactional
+    public void save(Customer customer) {
+        repository.save(customer);
     }
 }

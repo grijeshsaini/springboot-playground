@@ -20,16 +20,16 @@ buildscript {
 
 dependencies {
 
-    //internal modules
-    compile project(':swagger')
-    compile project(':healthcheck')
-
-    // tag::jetty[]
+    //Internal
+    compile project(':jpa-playground')
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("org.springframework.boot:spring-boot-starter-web")
-    compile("com.h2database:h2")
-    compile("org.springframework.boot:spring-boot-starter-actuator")
-    compile("org.projectlombok:lombok:1.16.6")
-    compile('com.google.guava:guava:18.0')
+    testCompile(group:'org.springframework', name: 'spring-test' ,version: '4.1.8.RELEASE')
+
+    // tag::jetty[]
+    testCompile("org.springframework.boot:spring-boot-starter-test")
     testCompile("junit:junit")
+    testCompile('com.jayway.restassured:rest-assured:2.7.0')
+    testCompile('org.hamcrest:hamcrest-all:1.3')
+
 }
