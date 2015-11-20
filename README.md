@@ -3,15 +3,15 @@
 
 ##Done
 
--Swagger
--Integration Test
--Rest Controllers
--Custom Health Checks
--JPA - Integration
+-Swagger<br/>
+-Integration Test<br/>
+-Rest Controllers<br/>
+-Custom Health Checks<br/>
+-JPA - Integration<br/>
 
 
 
 ##TODO
 
--Need to improve gradle structure
+-Need to improve gradle structure<br/>
 -Create FAT jar
