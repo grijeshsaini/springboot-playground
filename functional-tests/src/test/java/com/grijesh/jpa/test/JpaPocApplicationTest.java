@@ -38,6 +38,7 @@ public class JpaPocApplicationTest {
 
     @Before
     public void setup(){
+
         Customer customer1 = new Customer("Grijesh","Saini");
         Customer customer2 = new Customer("Grijesh1","Saini1");
         Customer customer3 = new Customer("Grijesh2","Saini2");
@@ -51,7 +52,7 @@ public class JpaPocApplicationTest {
     @Test
     public void getAllCustomers(){
         when().
-                get("/customers").
+                get("/jpa/customers").
         then().
                 statusCode(HttpStatus.SC_OK).
                 body("firstName", Matchers.hasItems("Grijesh", "Grijesh1", "Grijesh2"));
