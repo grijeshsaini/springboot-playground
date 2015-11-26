@@ -9,11 +9,11 @@
 -Custom Health Checks<br/>
 -JPA - Integration<br/>
 -Logging<br/>
--Playing with Different Embedded Servers<br/>
+-Playing with Different Embedded Servers
 
 
 
 ##TODO
-
+-Dev-tools<br/>
 -Need to improve gradle structure<br/>
 -Create FAT jar
