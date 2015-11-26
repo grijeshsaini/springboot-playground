@@ -1,3 +1,9 @@
 endpoints:
   health:
     sensitive : false
+
+logging:
+  level:
+    org:
+      springframework:
+        web : DEBUG

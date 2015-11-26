@@ -8,6 +8,8 @@
 -Rest Controllers<br/>
 -Custom Health Checks<br/>
 -JPA - Integration<br/>
+-Logging<br/>
+-Playing with Different Embedded Servers<br/>
 
 
 
