@@ -12,3 +12,5 @@ include 'healthcheck'
 
 include 'functional-tests'
 
+include 'spring-boot-admin-server'
+

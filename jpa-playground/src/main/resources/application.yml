@@ -7,3 +7,8 @@ logging:
     org:
       springframework:
         web : DEBUG
+
+spring:
+  boot:
+    admin:
+      url: http://localhost:9090
