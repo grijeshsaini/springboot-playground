@@ -24,7 +24,7 @@ dependencies {
     compile project(':jpa-playground')
     compile("org.springframework.boot:spring-boot-starter-data-jpa")
     compile("org.springframework.boot:spring-boot-starter-web")
-    testCompile(group:'org.springframework', name: 'spring-test' ,version: '4.1.8.RELEASE')
+    testCompile(group:'org.springframework', name: 'spring-test' ,version: '4.2.3.RELEASE')
 
     // tag::jetty[]
     testCompile("org.springframework.boot:spring-boot-starter-test")
