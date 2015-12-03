@@ -9,7 +9,8 @@
 -Custom Health Checks<br/>
 -JPA - Integration<br/>
 -Logging<br/>
--Playing with Different Embedded Servers
+-Playing with Different Embedded Servers<br/>
+-Spring-Boot-Admin
 
 
 
