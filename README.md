@@ -17,4 +17,5 @@
 ##TODO
 -Dev-tools<br/>
 -Need to improve gradle structure<br/>
--Create FAT jar
+-Create FAT jar <br/>
+-Improve Logging
