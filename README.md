@@ -18,4 +18,5 @@
 -Dev-tools<br/>
 -Need to improve gradle structure<br/>
 -Create FAT jar <br/>
--Improve Logging
+-Improve Logging<br/>
+-Spring state machine
