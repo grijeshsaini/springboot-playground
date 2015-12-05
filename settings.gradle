@@ -16,4 +16,5 @@ include 'spring-boot-admin-server'
 
 include 'spring-state-machine'
 include 'dev-tools'
+include 'metrics'
 

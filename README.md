@@ -11,12 +11,13 @@
 -Logging<br/>
 -Playing with Different Embedded Servers<br/>
 -Spring-Boot-Admin<br/>
--Dev-tools
+-Dev-tools<br/>
+-Custom Metrics<br/>
+-AOP Integration
 
 
 
 ##TODO
 -Need to improve gradle structure<br/>
 -Create FAT jar <br/>
--Improve Logging<br/>
--Spring state machine
+-Improve Logging

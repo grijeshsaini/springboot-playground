@@ -6,6 +6,7 @@ import com.grijesh.jpa.domain.CustomerRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.actuate.metrics.CounterService;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -17,13 +18,16 @@ import java.util.List;
 @Service
 public class CustomerServiceImpl implements CustomerService {
 
+    private CounterService counterService;
+
     private static final Logger log = LoggerFactory.getLogger(CustomerServiceImpl.class);
 
     private CustomerRepository repository;
 
     @Autowired
-    public CustomerServiceImpl(CustomerRepository repository) {
+    public CustomerServiceImpl(CustomerRepository repository,CounterService counterService) {
         this.repository = repository;
+        this.counterService = counterService;
     }
 
     @Override
@@ -62,6 +66,7 @@ public class CustomerServiceImpl implements CustomerService {
     public List<Customer> listAllCustomers() {
         List<Customer> list = Lists.newArrayList(repository.findAll());
         list.forEach(item -> log.info(item.toString()));
+        counterService.increment("counter.list_all_customer_operation");
         return list;
     }
 
