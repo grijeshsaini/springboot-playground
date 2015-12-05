@@ -6,7 +6,7 @@ logging:
   level:
     org:
       springframework:
-        web : DEBUG
+        web : INFO
 
 spring:
   boot:

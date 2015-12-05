@@ -15,4 +15,5 @@ include 'functional-tests'
 include 'spring-boot-admin-server'
 
 include 'spring-state-machine'
+include 'dev-tools'
 

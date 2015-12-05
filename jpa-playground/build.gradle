@@ -23,6 +23,7 @@ dependencies {
     //internal modules
     compile project(':swagger')
     compile project(':healthcheck')
+    compile project(':dev-tools')
 
     // tag::jetty[]
     compile("org.springframework.boot:spring-boot-starter-data-jpa")

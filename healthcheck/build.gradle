@@ -6,8 +6,5 @@ repositories {
 
 
 dependencies {
-    // tag::jetty[]
     compile("org.springframework.boot:spring-boot-starter-actuator:1.3.0.RELEASE")
-
-    testCompile("junit:junit")
 }

@@ -10,12 +10,12 @@
 -JPA - Integration<br/>
 -Logging<br/>
 -Playing with Different Embedded Servers<br/>
--Spring-Boot-Admin
+-Spring-Boot-Admin<br/>
+-Dev-tools
 
 
 
 ##TODO
--Dev-tools<br/>
 -Need to improve gradle structure<br/>
 -Create FAT jar <br/>
 -Improve Logging<br/>
