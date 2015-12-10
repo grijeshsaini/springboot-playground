@@ -13,12 +13,14 @@
 -Spring-Boot-Admin<br/>
 -Dev-tools<br/>
 -Custom Metrics<br/>
--AOP Integration
+-AOP Integration<br/>
+-Web-Socket Integration
 
 
 
 ##TODO
 -Need to improve gradle structure<br/>
 -Create FAT jar <br/>
--Logback
+-Logback<br/>
+-Profiles
 
