@@ -1,14 +1,3 @@
-endpoints:
-  health:
-    sensitive : false
-
-logging:
-  level:
-    org:
-      springframework:
-        web : INFO
-
 spring:
-  boot:
-    admin:
-      url: http://localhost:9090
+  profiles:
+    active: dev

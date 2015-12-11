@@ -1,0 +1,15 @@
+endpoints:
+  health:
+    sensitive : true
+
+logging:
+  level:
+    org:
+      springframework:
+        web : DEBUG
+
+
+spring:
+  boot:
+    admin:
+      url: http://localhost:9090

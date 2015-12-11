@@ -15,4 +15,5 @@ include 'spring-boot-admin-server'
 include 'dev-tools'
 include 'metrics'
 include 'presentation'
+include 'profiles'
 
