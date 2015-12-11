@@ -14,7 +14,8 @@
 -Dev-tools<br/>
 -Custom Metrics<br/>
 -AOP Integration<br/>
--Web-Socket Integration
+-Web-Socket Integration<br/>
+-Multiple Profiles
 
 
 
@@ -22,5 +23,4 @@
 -Need to improve gradle structure<br/>
 -Create FAT jar <br/>
 -Logback<br/>
--Profiles
 
