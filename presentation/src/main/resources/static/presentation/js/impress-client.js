@@ -553,7 +553,7 @@
         var prev = function () {
             var prev = steps.indexOf( activeStep ) - 1;
             prev = prev >= 0 ? steps[ prev ] : steps[ steps.length-1 ];
-            
+            sendEvent('prev');
             return goto(prev);
         };
         
@@ -561,7 +561,7 @@
         var next = function () {
             var next = steps.indexOf( activeStep ) + 1;
             next = next < steps.length ? steps[ next ] : steps[ 0 ];
-            
+            sendEvent('next');
             return goto(next);
         };
         

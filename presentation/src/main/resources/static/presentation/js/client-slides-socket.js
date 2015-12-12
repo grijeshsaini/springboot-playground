@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Hello WebSocket</title>
-    <script src="js/sockjs-0.3.4.js"></script>
-    <script src="js/stomp.js"></script>
-    <script src="js/client-slides-socket.js"></script>
-    <!--<script type="text/javascript">
         var stompClient = null;
 
         function setConnected(connected) {
@@ -36,22 +28,3 @@
         function sendEvent(event) {
             stompClient.send("/app/event", {}, JSON.stringify({ 'event': event }));
         }
-
-    </script>-->
-</head>
-<body onload="disconnect()">
-<noscript><h2 style="color: #ff0000">Seems your browser doesn't support Javascript! Websocket relies on Javascript being enabled. Please enable
-    Javascript and reload this page!</h2></noscript>
-<div>
-    <div>
-        <button id="connect" onclick="connect();">Connect</button>
-        <button id="disconnect" disabled="disabled" onclick="disconnect();">Disconnect</button>
-    </div>
-    <div id="conversationDiv">
-        <button id="prev" onclick="sendEvent('prev');">Prev</button>
-        <button id="next" onclick="sendEvent('next');">Next</button>
-        <p id="response"></p>
-    </div>
-</div>
-</body>
-</html>
