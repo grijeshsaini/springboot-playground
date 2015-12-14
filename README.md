@@ -15,7 +15,8 @@
 -Custom Metrics<br/>
 -AOP Integration<br/>
 -Web-Socket Integration<br/>
--Multiple Profiles
+-Multiple Profiles<br/>
+-Executable jar
 
 
 
