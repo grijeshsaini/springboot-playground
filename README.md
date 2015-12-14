@@ -16,7 +16,8 @@
 -AOP Integration<br/>
 -Web-Socket Integration<br/>
 -Multiple Profiles<br/>
--Executable jar
+-Executable jar<br/>
+-Executable and deployable war
 
 
 
