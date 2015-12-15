@@ -25,4 +25,5 @@
 -Need to improve gradle structure<br/>
 -Create FAT jar <br/>
 -Logback<br/>
--Presentation
+-Presentation<br/>
+-Restructure for demo
