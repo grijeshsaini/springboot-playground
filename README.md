@@ -1,5 +1,6 @@
 #### Repository to learn Spring boot
 
+Most of the modules in the project are standlone project and can be run independently
 
 ##Done
 
